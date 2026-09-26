@@ -97,7 +97,7 @@ Link im Profil: deine Shopseite. Sag im Video: „Vorlage gratis – Link im Pro
 
 Stell dieselben Produkte auch auf Etsy ein. Dort suchen die Leute schon gezielt nach „Budget Planer Vorlage“ und ähnlichem.
 Pro Produkt fällt eine kleine Listing-Gebühr an, dazu Gebühren pro Verkauf. Prüfe die aktuellen Konditionen bei Etsy.
-Titel und Tags formulierst du auf **Deutsch**, dort ist die Konkurrenz kleiner.
+Titel und Tags formulierst du auf **Deutsch**, dort ist die Konkurrenz kleiner. Gebühren (Stand 09/2026): 0,20 USD pro Listing, 6,5 % Transaktionsgebühr und 4 % + 0,30 € Zahlungsabwicklung. Hinterlege im Etsy-Shop deine Impressum-Angaben.
 
 ---
 
@@ -112,7 +112,7 @@ Richte die Gratis-Vorlage deshalb so ein:
 2. Aktiviere **Double-Opt-In.** Der Download-Link kommt erst mit der Bestätigungs- bzw. Willkommensmail.
 3. Trag den Link zu dieser Anmeldeseite in `config.js` unter `freebie.link` ein.
 
-Liefere die Gratis-Vorlage **nicht** nur als 0-€-Produkt über Gumroad oder Lemon Squeezy aus und schick den Leuten danach Werbung. Dafür fehlt die Einwilligung.
+Liefere die Gratis-Vorlage **nicht** ohne Einwilligung aus und schick den Leuten danach Werbung. Die Anmeldung mit Double-Opt-In ist Pflicht.
 
 **Automatische Willkommensserie nach dem Download der Gratis-Vorlage:**
 
@@ -125,35 +125,36 @@ Liefere die Gratis-Vorlage **nicht** nur als 0-€-Produkt über Gumroad oder Le
 | 10 | Letzte Erinnerung + ein Geschenk-Prompt | Code läuft heute ab, dazu ein KI-Prompt gratis |
 
 Danach schickst du **eine Mail pro Woche** mit einem Tipp und einem sanften Hinweis auf ein passendes Produkt.
-Tipp: Den Rabattcode legst du in Lemon Squeezy oder Gumroad an, mit echtem Enddatum.
+Tipp: Den Gutscheincode legst du in Digistore24 an, mit echtem Enddatum.
 
 > Die Mail an Tag 4 erzählt eine eigene Erfahrung. Schreib dort nur, was wirklich stimmt, und pass die Zahl an deine Geschichte an.
 
 ---
 
-## 5. Der 90-Tage-Plan
+## 5. Der 90-Tage-Plan (ab Ende September 2026)
 
-### Monat 1: Fundament
+Alle sieben Produkte sind bereits fertig. Die 90 Tage gehören deshalb ganz dem Start und der Sichtbarkeit.
+
+### Monat 1 (Oktober 2026): Fundament
 | Woche | Aufgaben |
 |---|---|
-| 1 | Gratis-Vorlage bauen · Pinterest-Unternehmenskonto und 6 Pinnwände · TikTok- und Instagram-Konto |
-| 2 | Shop online stellen, Gratis-Vorlage verlinken · Willkommensserie (5 Mails) schreiben · 5 Pins für die Gratis-Vorlage |
-| 3 | Finanz-Cockpit bauen · 3 Videos (Format 1, 4, 5) · 4 Pins |
-| 4 | Finanz-Cockpit veröffentlichen · Einführungsangebot an die Liste schicken · 5 Pins für das Cockpit |
+| 1 | Gewerbe anmelden · innerhalb 1 Woche bei der Berufsgenossenschaft melden · ELSTER-Konto beantragen · Impressum & Datenschutz ausfüllen |
+| 2 | Fragebogen zur steuerlichen Erfassung · Digistore24-Konto · Newsletter-Dienst mit Double-Opt-In und Gratis-Vorlage einrichten |
+| 3 | Produkte bei Digistore24 einstellen · Kauf-Links in `config.js` · Website live schalten · Willkommensserie (5 Mails) schreiben |
+| 4 | Pinterest-Unternehmenskonto, 6 Pinnwände, erste 10 Pins · TikTok/Instagram-Profil mit Impressum-Link · erste 3 Videos |
 
-### Monat 2: Rhythmus
+### Monat 2 (November 2026): Rhythmus
 | Woche | Aufgaben |
 |---|---|
-| 5–6 | Selbstständig-Starterkit bauen · pro Woche 5 Pins und 3 Videos |
-| 7 | Starterkit veröffentlichen · Produkte parallel auf Etsy einstellen |
-| 8 | **Auswertung:** Welche Pins und Videos bringen Klicks? Davon machst du 3 neue Varianten. |
+| 5–7 | Wochenroutine: 5 Pins + 3 Videos pro Woche · Schwerpunkt Finanz-Cockpit & Gratis-Vorlage („Finanzen 2027 planen“) |
+| 8 | Black Friday (27.11.2026): Komplettpaket mit echtem Aktionszeitraum an die Newsletter-Liste · Produkte zusätzlich auf Etsy |
 
-### Monat 3: Ausbauen
+### Monat 3 (Dezember 2026): Hochsaison vorbereiten
 | Woche | Aufgaben |
 |---|---|
-| 9–10 | Steuer-Organizer bauen, rechtzeitig vor der Steuersaison |
-| 11 | Veröffentlichen · Komplettpaket mit 3 Produkten zum passenden Preis anbieten |
-| 12 | Käufer um eine ehrliche Bewertung bitten · die besten 3 Inhalte erneut veröffentlichen · Plan für Monat 4–6 |
+| 9–10 | Pins für Januar-Themen: Neujahrs-Finanzen, Steuererklärung 2026, Bewerbung · Affiliate-Programm in Digistore24 öffnen |
+| 11 | **Auswertung:** Welche Pins und Videos bringen Klicks? Davon 3 neue Varianten |
+| 12 | Käufer um ehrliche Bewertungen bitten · Plan für Januar bis März (Steuer-Saison, Bewerbungs-Saison) |
 
 ### Die feste Wochenroutine (ca. 5 Std.)
 - **Montag (1,5 Std.):** 5 Pins in Canva erstellen und für die Woche einplanen (Pinterest hat eine eingebaute Planungsfunktion)
@@ -170,9 +171,9 @@ Einmal pro Woche trägst du in eine einfache Tabelle ein:
 | Kennzahl | Wo du sie findest | Was sie dir sagt |
 |---|---|---|
 | Ausgehende Klicks | Pinterest Analytics | Machen die Pins neugierig? |
-| Downloads der Gratis-Vorlage | Lemon Squeezy / Gumroad | Funktioniert der Einstieg in den Trichter? |
-| Verkäufe | Lemon Squeezy / Gumroad | Verkaufen die Seite und die Mails? |
-| Käufe ÷ Besucher (Konversionsrate) | Lemon Squeezy / Gumroad | Stimmen Angebot und Preis? |
+| Neue Newsletter-Anmeldungen | Newsletter-Dienst | Funktioniert der Einstieg in den Trichter? |
+| Verkäufe | Digistore24 | Verkaufen die Seite und die Mails? |
+| Käufe ÷ Besucher (Konversionsrate) | Digistore24 + Pinterest-Klicks | Stimmen Angebot und Preis? |
 
 **So findest du das Problem:**
 - Viele Aufrufe, aber wenig Klicks: Das **Pin-Bild oder die Überschrift** ist nicht interessant genug.
@@ -188,7 +189,7 @@ Einmal pro Woche trägst du in eine einfache Tabelle ein:
 - **Einführungspreis:** Neue Produkte gibt es in der ersten Woche 20 % günstiger, nur für deine E-Mail-Liste.
 - **Saisonale Aktionen:** Neujahr mit Finanzen, Frühjahr mit Steuer, August mit Bewerbung, Black Friday mit dem Komplettpaket.
 - **Aufs nächste Produkt hinweisen:** Nach dem Kauf des Cockpits kommt eine Mail zum Steuer-Organizer, nach dem Starterkit eine zum Social-Media-Paket.
-- **Empfehlungen:** Sowohl Lemon Squeezy als auch Gumroad bieten ein **Affiliate-Programm** an. Leute, die über Finanzen oder Selbstständigkeit posten, bekommen dann z. B. 30 % Provision pro Verkauf.
+- **Empfehlungen:** Digistore24 hat ein eingebautes **Affiliate-Programm** mit einem großen Partner-Marktplatz. Leute, die über Finanzen oder Selbstständigkeit posten, bekommen dann z. B. 30 % Provision pro Verkauf. Werbende Partner müssen ihre Beiträge als Werbung kennzeichnen.
 - **Geschäftskunden direkt ansprechen** (Social-Media-Paket): Schreib Betriebe in deiner Stadt persönlich an, **per Brief oder im Laden**. Ungefragte Werbe-E-Mails an Firmen sind in Deutschland unzulässig.
 
 ---

@@ -1,0 +1,4 @@
+# Verkaufsfertige Produktdateien NIE in dieses (öffentliche) Repository hochladen
+produkte/
+privat/
+*.zip

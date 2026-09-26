@@ -4,15 +4,19 @@ Eine professionelle Verkaufsseite für digitale Produkte. Sie kostet dich nichts
 funktioniert **ohne Programmierkenntnisse**.
 
 - **Hosting:** kostenlos über GitHub Pages
-- **Zahlung:** Lemon Squeezy oder Gumroad (übernehmen auch EU-Umsatzsteuer und Rechnungen)
+- **Verkauf:** über Digistore24 als Wiederverkäufer (übernimmt Zahlung, Rechnungen und Umsatzsteuer)
 - **Bearbeiten:** Du änderst nur eine Datei, nämlich `config.js`
 - **Datenschutzfreundlich:** keine Cookies, kein Tracking, Schriften direkt auf der eigenen Seite
 
+> 🔒 Die verkaufsfertigen Produktdateien liegen bewusst **nicht** in diesem öffentlichen Repository.
+> Der Ordner `produkte/` ist in `.gitignore` gesperrt.
+
 ## Starte hier
 
-1. 📘 **[ANLEITUNG.md](ANLEITUNG.md)**: Shop einrichten, Rechtliches, online stellen
-2. 📦 **[PRODUKTE.md](PRODUKTE.md)**: die Produktlinie mit Bauplänen
-3. 📣 **[MARKETING.md](MARKETING.md)**: Strategie und 90-Tage-Plan
+1. 📊 **Businessplan**: das Gesamtbild (Link und PDF im Chat)
+2. 📘 **[ANLEITUNG.md](ANLEITUNG.md)**: Anmeldung, Digistore24, Website online stellen
+3. 📦 **[PRODUKTE.md](PRODUKTE.md)**: die sieben fertigen Produkte und die jährliche Pflege
+4. 📣 **[MARKETING.md](MARKETING.md)**: Strategie und 90-Tage-Plan
 
 ## Dateien
 

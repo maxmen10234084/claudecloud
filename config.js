@@ -21,8 +21,8 @@ window.SHOP = {
   tagline: "Digitale Vorlagen",
   email: "kontakt@example.com",
 
-  // Hinweis unter jedem Preis. Stelle in Lemon Squeezy / Gumroad ein,
-  // dass die Steuer im Preis ENTHALTEN ist ("tax inclusive").
+  // Hinweis unter jedem Preis. Digistore24 zeigt Endpreise inkl. MwSt. –
+  // trage dort denselben Bruttopreis ein wie hier.
   priceNote: "inkl. MwSt.",
 
   // ------------------------------------------------------------
@@ -39,7 +39,7 @@ window.SHOP = {
   },
 
   // "Funktioniert mit" – nur Text, keine Logos.
-  worksWith: ["Google Sheets", "Microsoft Excel", "Notion", "Canva", "ChatGPT", "Claude"],
+  worksWith: ["Microsoft Excel", "Google Sheets", "Word", "Canva", "ChatGPT", "Claude"],
 
   // ------------------------------------------------------------
   //  PRODUKTE
@@ -47,7 +47,7 @@ window.SHOP = {
   //  category:  muss exakt einer der "categories" entsprechen
   //  mockup:    Vorschaubild-Stil: "sheet", "doc", "board", "social" oder "chat"
   //  color:     "green", "blue", "amber", "rose", "violet" oder "teal"
-  //  link:      Kauf-Link von Lemon Squeezy / Gumroad. "#" = "Bald verfügbar"
+  //  link:      Kauf-Link (Bestellformular) von Digistore24. "#" = "Bald verfügbar"
   //  badge:     kleines Etikett, z. B. "Beliebt" oder "Neu" ("" = keins)
   // ------------------------------------------------------------
   categories: ["Finanzen", "Karriere", "Selbstständig", "Familie"],
@@ -63,7 +63,7 @@ window.SHOP = {
       price: 19,
       badge: "Beliebt",
       link: "#",
-      formats: ["Google Sheets", "Excel"],
+      formats: ["Excel", "Google Sheets", "PDF"],
       description:
         "Budget, Sparziele, ETF-Sparplan und Vermögen auf einen Blick. Du trägst nur deine Ausgaben ein – alle Diagramme und Auswertungen aktualisieren sich automatisch.",
       includes: [
@@ -85,7 +85,7 @@ window.SHOP = {
       price: 14,
       badge: "",
       link: "#",
-      formats: ["Google Sheets", "Excel", "PDF"],
+      formats: ["Excel", "Google Sheets", "PDF"],
       description:
         "Nie wieder Schuhkarton voller Quittungen. Sammle Werbungskosten, Sonderausgaben und Belege übersichtlich nach Kategorien – passend zu den Bereichen der Steuererklärung.",
       includes: [
@@ -107,16 +107,16 @@ window.SHOP = {
       price: 29,
       badge: "Neu",
       link: "#",
-      formats: ["Google Docs", "Word", "Google Sheets", "Excel"],
+      formats: ["Excel", "Google Sheets", "Word", "PDF"],
       description:
-        "Alles für den Start in die Selbstständigkeit: professionelle Vorlagen mit allen Pflichtangaben für Rechnungen und ein Einnahmen-Ausgaben-Tracker, der dir die EÜR vorbereitet.",
+        "Alles für den Start in die Selbstständigkeit: Rechnungen und Angebote, die sich automatisch aus deinen Daten füllen, und ein Einnahmen-Ausgaben-Tracker, der dir die EÜR vorbereitet.",
       includes: [
         "Rechnungsvorlage mit Pflichtangaben (inkl. §-19-Variante)",
-        "Angebots- und Auftragsbestätigungs-Vorlage",
+        "Angebots-Vorlage, Kundenliste & Rechnungsliste mit Zahlungsstatus",
         "Einnahmen-Ausgaben-Tracker mit Jahresübersicht",
-        "Umsatzgrenzen-Wächter für Kleinunternehmer",
-        "Checkliste: Gewerbe anmelden Schritt für Schritt",
-        "KI-Prompts: Angebotstexte & Mahnungen formulieren",
+        "Kleinunternehmer-Wächter für die Umsatzgrenzen",
+        "Stundensatz-Rechner & Gründungs-Checkliste",
+        "KI-Prompts: Angebotstexte, Erinnerungen & Mahnungen",
       ],
     },
     {
@@ -129,16 +129,16 @@ window.SHOP = {
       price: 19,
       badge: "",
       link: "#",
-      formats: ["Google Docs", "Word", "PDF"],
+      formats: ["Word", "Google Docs", "Excel", "PDF"],
       description:
         "Drei moderne, ATS-freundliche Lebenslauf-Designs plus eine Prompt-Bibliothek, mit der du Anschreiben auf jede Stelle zuschneidest und Vorstellungsgespräche realistisch übst.",
       includes: [
         "3 Lebenslauf-Designs (ATS-freundlich)",
-        "Anschreiben-Baukasten mit Beispielen",
-        "40 KI-Prompts für Anschreiben & Profil",
+        "Anschreiben-Vorlage mit Hinweisen für jeden Absatz",
+        "40 KI-Prompts – von der Stellenanzeige bis zum Gehalt",
         "Interview-Simulator-Prompts mit Feedback",
-        "Gehaltsverhandlungs-Leitfaden",
-        "Bewerbungs-Tracker für alle Stellen",
+        "Leitfaden Gehaltsverhandlung in 6 Schritten",
+        "Bewerbungs-Tracker mit Nachfass-Erinnerung",
       ],
     },
     {
@@ -151,14 +151,14 @@ window.SHOP = {
       price: 39,
       badge: "",
       link: "#",
-      formats: ["Canva", "Notion", "PDF"],
+      formats: ["Canva", "PowerPoint", "Excel", "PDF"],
       description:
-        "Für kleine Unternehmen ohne Marketing-Team: anpassbare Canva-Designs, ein 90-Tage-Redaktionsplan und KI-Prompts, die Captions im Ton deines Betriebs schreiben.",
+        "Für kleine Unternehmen ohne Marketing-Team: bearbeitbare Designs (in Canva importierbar), ein 90-Tage-Redaktionsplan und KI-Prompts, die Captions im Ton deines Betriebs schreiben.",
       includes: [
-        "60 Canva-Vorlagen (Posts & Stories)",
-        "90-Tage-Redaktionsplan mit Post-Ideen",
-        "KI-Prompts für Captions & Hashtags",
-        "Vorlagen für Google-Bewertungen-Antworten",
+        "60 Designs für Posts & Stories (Canva, PowerPoint, Google Slides)",
+        "90-Tage-Redaktionsplan mit 39 Beitragsideen",
+        "12 KI-Prompts für Captions, Hashtags & Reels",
+        "Antwortvorlagen für Google-Bewertungen",
         "Aktions- & Feiertagskalender 2027",
         "Anleitung: In 60 Minuten einen Monat planen",
       ],
@@ -173,16 +173,16 @@ window.SHOP = {
       price: 12,
       badge: "",
       link: "#",
-      formats: ["Notion", "Google Sheets", "PDF"],
+      formats: ["Excel", "Google Sheets", "PDF"],
       description:
-        "Behalte alle Fristen, Anträge und Ausgaben rund um die Geburt im Blick – mit Checklisten, einem Elternzeit-Planer für beide Eltern und einem Baby-Budget.",
+        "Behalte alle Fristen, Anträge und Ausgaben rund um die Geburt im Blick – die Termine berechnen sich automatisch aus dem Geburtstermin.",
       includes: [
-        "Fristen- & Anträge-Checkliste (Elterngeld, Kindergeld …)",
-        "Elternzeit-Planer für beide Elternteile",
-        "Baby-Budget & Erstausstattungsliste",
+        "19 Fristen & Termine automatisch berechnet",
+        "Elterngeld-Monate planen – mit Regel-Check",
+        "Familienbudget: vor und während der Elternzeit",
+        "Erstausstattung mit Kostenübersicht",
         "Kliniktaschen-Checkliste",
-        "Links zu den offiziellen Rechnern",
-        "KI-Prompts: Fragen an Ämter formulieren",
+        "KI-Prompts: Anträge & Schreiben formulieren",
       ],
     },
   ],
@@ -235,11 +235,11 @@ window.SHOP = {
   faq: [
     {
       q: "Wie erhalte ich meine Vorlage?",
-      a: "Direkt nach der Zahlung bekommst du eine E-Mail mit deinem Download-Link. Bei Google-Sheets-, Notion- und Canva-Vorlagen enthält die Datei einen Link, über den du dir eine eigene Kopie anlegst.",
+      a: "Direkt nach der Zahlung erhältst du deinen Download – auf der Bestellbestätigung und zusätzlich per E-Mail. Dazu gibt es zu jeder Vorlage eine bebilderte Anleitung als PDF.",
     },
     {
       q: "Brauche ich teure Software?",
-      a: "Nein. Alle Vorlagen funktionieren mit den kostenlosen Versionen von Google Sheets, Google Docs, Notion und Canva. Excel- und Word-Versionen liegen zusätzlich bei, wo angegeben.",
+      a: "Nein. Die Tabellen funktionieren mit Excel und mit dem kostenlosen Google Sheets, die Word-Vorlagen auch mit Google Docs, die Designs mit dem kostenlosen Canva, PowerPoint oder Google Slides.",
     },
     {
       q: "Was sind die KI-Prompts?",
@@ -247,7 +247,7 @@ window.SHOP = {
     },
     {
       q: "Welche Zahlungsarten gibt es?",
-      a: "Kreditkarte, PayPal, Apple Pay und Google Pay – abgewickelt über unseren Zahlungsanbieter. Deine Zahlungsdaten sehen wir nicht.",
+      a: "PayPal, Kreditkarte, Lastschrift und weitere Zahlarten – abgewickelt über unseren Vertriebspartner Digistore24. Deine Zahlungsdaten sehen wir nicht.",
     },
     {
       q: "Bekomme ich Updates?",
