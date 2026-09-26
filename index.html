@@ -3,51 +3,192 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shop</title>
-  <meta name="description" content="Digitale Vorlagen zum Sofort-Download.">
+  <title>Klarwerk – Digitale Vorlagen</title>
+  <meta name="description" content="Durchdachte digitale Vorlagen für Finanzen, Karriere und Selbstständigkeit – gemacht für Deutschland, mit eingebauten KI-Assistenten. Sofort-Download.">
+  <meta name="theme-color" content="#1f4d3a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="topbar">
+  <div id="config-error" class="config-error" hidden>
+    <strong>Hinweis:</strong> In <code>config.js</code> ist ein Tippfehler (z.&nbsp;B. ein fehlendes Komma oder Anführungszeichen).
+    Öffne die Datei und prüfe die zuletzt geänderte Stelle.
+  </div>
+
+  <header class="topbar" id="top">
     <div class="wrap topbar-inner">
-      <a class="logo" href="./" data-shop="name">Shop</a>
-      <nav><a href="#produkte">Produkte</a><a href="#faq">FAQ</a></nav>
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name" data-shop="name">Shop</span>
+        <span class="brand-tag" data-shop="tagline"></span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#produkte">Vorlagen</a>
+        <a href="#paket">Paket</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-small btn-primary" href="#produkte">Jetzt ansehen</a>
+      </nav>
     </div>
   </header>
 
   <main>
+    <!-- Startbereich -->
     <section class="hero">
-      <div class="wrap">
-        <h1 data-shop="headline"></h1>
-        <p class="lead" data-shop="subline"></p>
-        <a class="btn btn-primary" href="#produkte">Produkte ansehen</a>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-eyebrow"></p>
+          <h1><span id="hero-headline"></span> <em id="hero-accent"></em></h1>
+          <p class="lead" id="hero-subline"></p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary btn-large" href="#produkte" id="hero-cta1"></a>
+            <a class="btn btn-ghost btn-large" href="#gratis" id="hero-cta2"></a>
+          </div>
+          <ul class="hero-points">
+            <li>Sofort-Download</li>
+            <li>Einmal zahlen, kein Abo</li>
+            <li>Kostenlose Updates</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="float float-a" data-mockup="sheet" data-color="green"></div>
+          <div class="float float-b" data-mockup="chat" data-color="blue"></div>
+          <div class="float float-c" data-mockup="social" data-color="rose"></div>
+        </div>
       </div>
     </section>
 
-    <section id="produkte" class="wrap">
-      <h2>Produkte</h2>
-      <div class="grid" id="product-grid"></div>
+    <!-- Funktioniert mit -->
+    <section class="works" aria-label="Kompatibilität">
+      <div class="wrap works-inner">
+        <span class="works-label">Funktioniert mit</span>
+        <ul class="works-list" id="works-list"></ul>
+      </div>
     </section>
 
-    <section class="wrap trust">
-      <div><strong>⚡ Sofort-Download</strong><span>Direkt nach dem Kauf per E-Mail</span></div>
-      <div><strong>🔒 Sichere Zahlung</strong><span>Karte, PayPal, Apple Pay</span></div>
-      <div><strong>♾️ Einmal kaufen</strong><span>Kein Abo, für immer nutzen</span></div>
+    <!-- Vorteile -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Warum diese Vorlagen</p>
+          <h2>Nicht einfach Tabellen. Fertige Systeme.</h2>
+        </div>
+        <div class="benefits">
+          <article class="benefit">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h10M4 19h6" /></svg>
+            </div>
+            <h3>Für Deutschland gemacht</h3>
+            <p>Mit Begriffen, Fristen und Abläufen, wie sie hier gelten – statt übersetzter US-Vorlagen.</p>
+          </article>
+          <article class="benefit">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z" /></svg>
+            </div>
+            <h3>KI-Assistent inklusive</h3>
+            <p>Jede Vorlage enthält erprobte Prompts für ChatGPT oder Claude, die dir Texte und Analysen abnehmen.</p>
+          </article>
+          <article class="benefit">
+            <div class="benefit-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6" /></svg>
+            </div>
+            <h3>In Minuten startklar</h3>
+            <p>Kopie anlegen, eigene Zahlen eintragen, fertig. Jede Vorlage kommt mit einer kurzen Schritt-für-Schritt-Anleitung.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section id="faq" class="wrap">
-      <h2>Häufige Fragen</h2>
-      <div id="faq-list"></div>
+    <!-- Produkte -->
+    <section class="section section-alt" id="produkte">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Die Kollektion</p>
+          <h2>Wähle deine Vorlage</h2>
+        </div>
+        <div class="filters" id="filters" role="tablist" aria-label="Kategorien"></div>
+        <div class="products" id="product-grid"></div>
+      </div>
+    </section>
+
+    <!-- Paket -->
+    <section class="section" id="paket">
+      <div class="wrap">
+        <div class="bundle" id="bundle"></div>
+      </div>
+    </section>
+
+    <!-- So funktioniert's -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">So einfach geht's</p>
+          <h2>In drei Schritten startklar</h2>
+        </div>
+        <ol class="steps">
+          <li><span class="step-num">1</span><h3>Vorlage wählen</h3><p>Sicher bezahlen mit Karte, PayPal, Apple Pay oder Google Pay.</p></li>
+          <li><span class="step-num">2</span><h3>Link per E-Mail</h3><p>Direkt nach dem Kauf erhältst du deinen Download und die Anleitung.</p></li>
+          <li><span class="step-num">3</span><h3>Loslegen</h3><p>Kopie anlegen, eigene Daten eintragen – den Rest erledigt die Vorlage.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Kundenstimmen (nur sichtbar, wenn welche eingetragen sind) -->
+    <section class="section section-alt" id="stimmen" hidden>
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Kundenstimmen</p>
+          <h2>Was Käuferinnen und Käufer sagen</h2>
+        </div>
+        <div class="testimonials" id="testimonials"></div>
+      </div>
+    </section>
+
+    <!-- Gratis-Vorlage -->
+    <section class="section" id="gratis">
+      <div class="wrap">
+        <div class="freebie" id="freebie"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="wrap faq-wrap">
+        <div class="section-head section-head-left">
+          <p class="kicker">Fragen & Antworten</p>
+          <h2>Gut zu wissen</h2>
+          <p class="muted">Deine Frage ist nicht dabei? Schreib uns: <a class="mail-link" href="#"></a></p>
+        </div>
+        <div class="faq-list" id="faq-list"></div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="wrap footer-inner">
-      <span>© <span id="year"></span> <span data-shop="name"></span></span>
-      <span><a id="mail" href="#"></a></span>
-      <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+      <div>
+        <a class="brand" href="./">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name" data-shop="name"></span>
+        </a>
+        <p class="muted small">Digitale Vorlagen zum Sofort-Download.</p>
+      </div>
+      <nav class="footer-links" aria-label="Rechtliches">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a class="mail-link" href="#"></a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom small muted">
+      © <span id="year"></span> <span data-shop="name"></span>. Alle genannten Produktnamen sind Marken ihrer jeweiligen Inhaber.
     </div>
   </footer>
+
+  <!-- Produktdetails -->
+  <dialog class="modal" id="modal" aria-labelledby="modal-title">
+    <div class="modal-inner" id="modal-content"></div>
+  </dialog>
 
   <script src="config.js"></script>
   <script src="assets/app.js"></script>
