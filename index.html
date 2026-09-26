@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop</title>
+  <meta name="description" content="Digitale Vorlagen zum Sofort-Download.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="logo" href="./" data-shop="name">Shop</a>
+      <nav><a href="#produkte">Produkte</a><a href="#faq">FAQ</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1 data-shop="headline"></h1>
+        <p class="lead" data-shop="subline"></p>
+        <a class="btn btn-primary" href="#produkte">Produkte ansehen</a>
+      </div>
+    </section>
+
+    <section id="produkte" class="wrap">
+      <h2>Produkte</h2>
+      <div class="grid" id="product-grid"></div>
+    </section>
+
+    <section class="wrap trust">
+      <div><strong>⚡ Sofort-Download</strong><span>Direkt nach dem Kauf per E-Mail</span></div>
+      <div><strong>🔒 Sichere Zahlung</strong><span>Karte, PayPal, Apple Pay</span></div>
+      <div><strong>♾️ Einmal kaufen</strong><span>Kein Abo, für immer nutzen</span></div>
+    </section>
+
+    <section id="faq" class="wrap">
+      <h2>Häufige Fragen</h2>
+      <div id="faq-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> <span data-shop="name"></span></span>
+      <span><a id="mail" href="#"></a></span>
+      <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
