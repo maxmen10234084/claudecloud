@@ -2,3 +2,8 @@
 produkte/
 privat/
 *.zip
+
+# Automaton: Wallet, Schlüssel und Agentendaten nie hochladen
+.automaton/
+wallet.json
+.env
