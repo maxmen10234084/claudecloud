@@ -17,6 +17,7 @@ funktioniert **ohne Programmierkenntnisse**.
 2. 📘 **[ANLEITUNG.md](ANLEITUNG.md)**: Anmeldung, Digistore24, Website online stellen
 3. 📦 **[PRODUKTE.md](PRODUKTE.md)**: die sieben fertigen Produkte und die jährliche Pflege
 4. 📣 **[MARKETING.md](MARKETING.md)**: Strategie und 90-Tage-Plan
+5. 🤖 **[AUTOMATON.md](AUTOMATON.md)**: Conway Automaton einrichten und starten
 
 ## Dateien
 

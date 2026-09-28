@@ -1,0 +1,3 @@
+[submodule "automaton"]
+	path = automaton
+	url = https://github.com/Conway-Research/automaton.git
